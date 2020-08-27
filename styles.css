@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+}
+
+p{
+    color: white;
+}
+
+a {
+     color: inherit;
+     } 
+/* top page */
+
+.top-container{
+    background-image: url("images/juice-bg.jpg") ;
+    text-align: center;
+    background-size: cover;
+    height: 45rem;
+    font-family: 'Russo One', sans-serif;
+}
+
+.title{
+    display: inline;
+    position: absolute;
+    top: 50%;
+    left: 45%;
+}
+
+.title2{
+    display: inline;
+    position: absolute;
+    top: 60%;
+    left: 49.4%;
+}
+
+.button{
+position: absolute;
+top: 71% ; 
+background:none;
+}
+
+.button:hover{
+    color: white;
+}
+
+.fas{
+    position: absolute;
+    top: 70%;
+    right: 47.2%;
+}
+
+.fas:hover{
+    color: white;
+}
+
+/* second page */
+
+.middle-container{
+    height: 45rem;
+    background-color: black;
+}
+
+.pic{
+    float: right;
+    width: 35%;
+}
+
+.about-box{
+    width: 65%;
+    margin: auto;
+}
+
+.about-heading{
+    color: white;
+    margin-top: 0;
+    padding-top: 1rem;
+    font-family: 'Abril Fatface', cursive;
+}
+
+.text{
+    width: 60%;
+    font-family: 'Russo One', sans-serif;
+}
+
+/* third page */
+
+.bottom-container{
+    height: 26rem;
+    background-color: black;
+}
+
+.discography{
+    width: 65%;
+    margin: auto;
+}
+
+.discography-heading{
+    color: white;
+    margin-top: 0;
+    padding-top: 1rem;
+    font-family: 'Abril Fatface', cursive;
+}
+
+.disc-img{
+    width: 20%;
+margin: 1rem 2px 0 25px;
+}
+
+.copyright{
+    color: white;
+    text-align: center;
+}
